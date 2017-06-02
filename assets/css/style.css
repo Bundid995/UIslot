@@ -246,6 +246,10 @@ body {
   background: #F7F7F7;
 }
 
+#wrapper {
+  background: #F7F7F7;
+}
+
 .page-title {
   display: block;
   padding: 1.53846rem 5rem;

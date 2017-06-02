@@ -1,21 +1,21 @@
 
 
 .well-header {
-min-height: 20px;
-padding: 19px;
-background-color: #F1ECEC;
-background: url('http://orbitum.com/landing/seo/en/images/bg.jpg') center center no-repeat scroll;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
+padding: 0;
+}
 
-   -o-background-size: cover;
-background-attachment: fixed;
-font-size: 36px;
-text-transform: uppercase;
-letter-spacing: 1px;
-line-height: 25rem;
-color: #4D5061;
-
+.content-boxed {
+    position: relative;
+    z-index: 10;
+    // display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 54px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFF;
+    font-weight: bold;
+    display: inline-block;
 }
 /* NAVBAR */
 .dropdown-menu>li>a,
@@ -26,11 +26,10 @@ color: #4D5061;
 .navbar-custom .navbar-nav .open .dropdown-menu>li>a
 {
   color:#FFFFFF;
-	transition:all 1s;
+	transition:all .3s;
 	-o-transition:all 1s;
 	-moz-transition:all 1s;
 	-webkit-transition:all 1s;
-  // border-left: 1px solid #2C3E50;
 }
 .dropdown-menu>li>a:hover,
 .navbar-custom .navbar-nav>li>a:hover,S
@@ -45,11 +44,12 @@ color: #4D5061;
 
 }
 .navbar-custom {
-  background: #4D5061;
+  background: #3C4254;
   border-bottom: 4px solid #60B078;
   color: #FFF;
   letter-spacing: 1px;
   text-transform: uppercase;
+  transition: all .3s;
 }
 
 .navbar-custom-r {
@@ -57,7 +57,9 @@ color: #4D5061;
   margin-right: -15px;
 
 }
-
+.nav {
+  transition: all .3s;
+}
 
 /* TADA effect */
 @keyframes tada {

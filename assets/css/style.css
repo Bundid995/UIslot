@@ -44,7 +44,7 @@
   position: relative;
   color: #fff;
   text-decoration: none;
-  background-color: #4D5061;
+  background-color: #3C4254;
   border: 1px solid #707c8d;
 }
 
@@ -65,7 +65,7 @@
 .breadcrumb-arrow li a:before {
   right: -10px;
   z-index: 3;
-  border-left-color: #4D5061;
+  border-left-color: #3C4254;
   border-left-style: solid;
   border-left-width: 11px;
 }
@@ -95,7 +95,7 @@
 }
 
 .breadcrumb-arrow li span {
-  color: #434a54;
+  color: #3C4254;
 }
 
 .btn-glyphicon {
@@ -110,19 +110,20 @@
 }
 
 .well-header {
-  min-height: 20px;
-  padding: 19px;
-  background-color: #F1ECEC;
-  background: url("http://orbitum.com/landing/seo/en/images/bg.jpg") center center no-repeat scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-attachment: fixed;
-  font-size: 36px;
+  padding: 0;
+}
+
+.content-boxed {
+  position: relative;
+  z-index: 10;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 54px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  line-height: 25rem;
-  color: #4D5061;
+  color: #FFF;
+  font-weight: bold;
+  display: inline-block;
 }
 
 /* NAVBAR */
@@ -133,7 +134,9 @@
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
   color: #FFFFFF;
-  transition: all 1s;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
   -o-transition: all 1s;
   -moz-transition: all 1s;
   -webkit-transition: all 1s;
@@ -151,16 +154,25 @@
 }
 
 .navbar-custom {
-  background: #4D5061;
+  background: #3C4254;
   border-bottom: 4px solid #60B078;
   color: #FFF;
   letter-spacing: 1px;
   text-transform: uppercase;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
 }
 
 .navbar-custom-r {
   float: right;
   margin-right: -15px;
+}
+
+.nav {
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
 }
 
 /* TADA effect */
@@ -231,35 +243,50 @@
 }
 
 body {
-  background: #F1ECEC;
+  background: #F7F7F7;
 }
 
 .page-title {
   display: block;
-  margin: -2rem -2rem 2rem;
   padding: 1.53846rem 5rem;
   border-bottom: 1px solid #DEE1EC;
   background: #FFF;
   border-radius: 3px;
   margin-top: 20px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 }
 
 .content {
+  background: #FFF;
   display: block;
-  margin: -2rem -2rem 5rem;
   padding: 1.53846rem 5rem;
   border-bottom: 1px solid #DEE1EC;
-  background: #FFF;
   border-radius: 3px;
   margin-top: 20px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.page-subtitle {
+  display: block;
+  color: #FFF;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 7px;
+  margin-top: 1px;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 .btn3d {
   position: relative;
   top: -6px;
   border: 0;
+  -webkit-transition: all 40ms linear;
+  -o-transition: all 40ms linear;
   transition: all 40ms linear;
   margin: 10px 2px;
 }
@@ -278,12 +305,14 @@ body {
 
 .btn3d.active .btn3d.btn-success,
 .btn3d:active .btn3d.btn-success {
+  -webkit-box-shadow: 0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
   background-color: #78d739;
 }
 
 .btn3d.btn-success.active,
 .btn3d.btn-success:active {
+  -webkit-box-shadow: 0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
   background-color: #78d739;
 }
@@ -299,7 +328,7 @@ body {
 }
 
 .footer-copyright {
-  background: #4D5061;
+  background: #3C4254;
   position: relative;
   border-top: 4px solid #60B078;
   color: #FFF;
@@ -324,4 +353,104 @@ body {
 
 .design a {
   color: #fff;
+}
+
+.profile-card {
+  background-color: #3C4254;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  max-width: 100px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.profile-info {
+  color: #BDBDBD;
+  padding: 25px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.profile-info h2 {
+  color: #E8E8E8;
+  letter-spacing: 4px;
+  padding-bottom: 12px;
+}
+
+.profile-info span {
+  display: block;
+  font-size: 12px;
+  color: #4CB493;
+  letter-spacing: 2px;
+}
+
+.profile-info a {
+  color: #4CB493;
+}
+
+.profile-info i {
+  padding: 15px 35px 0px 35px;
+}
+
+.profile-card:hover .profile-pic {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.profile-card:hover .profile-info hr {
+  opacity: 1;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 52%;
+  right: 52%;
+  bottom: 0;
+  background: #FFFFFF;
+  border-radius: 50%;
+  height: 3px;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.profile-card:hover .hvr-underline-from-center:before, .profile-card:focus .hvr-underline-from-center:before, .profile-card:active .hvr-underline-from-center:before {
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #CECECE;
 }

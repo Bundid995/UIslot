@@ -1,10 +1,12 @@
 body {
-  background: #F1ECEC;
+background: #F7F7F7;
+//   background: linear-gradient(to bottom right, #166a8f , #DEE1EC); /* Standard syntax */
+//
 }
 
 .page-title {
   display: block;
-  margin: -2rem -2rem 2rem;
+  // margin: -2rem -2rem 2rem;
   padding: 1.53846rem 5rem;
   border-bottom: 1px solid #DEE1EC;
   background: #FFF;
@@ -14,19 +16,28 @@ body {
 }
 
 .content {
-  // background: #60B078;
-  // border: 4px solid red;
-
+background: #FFF;
 display: block;
-margin: -2rem -2rem 5rem;
+// margin: -2rem -2rem 5rem;
 padding: 1.53846rem 5rem;
 border-bottom: 1px solid #DEE1EC;
-background: #FFF;
 border-radius: 3px;
 margin-top: 20px;
 box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 }
 
+.page-subtitle {
+    display: block;
+    color: #FFF;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 7px;
+    margin-top: 1px;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
 
 .btn3d {
   position: relative;

@@ -17,7 +17,18 @@
   -webkit-transition: all 0.4s;
 		  transition: all 0.4s;
 				}
-
+.del-btn
+{
+  border: none;
+  box-shadow: none;
+  color:#4CB493 ;
+  background: transparent;
+}
+.header-card {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #FFF;
+}
 
 .profile-info {
 		color: #BDBDBD;
@@ -94,4 +105,124 @@
   right: 0;
   height: 1px;
   background: #CECECE;
+}
+
+
+
+.well {
+    min-height: 20px;
+    padding: 0px;
+    margin-bottom: 20px;
+    background-color: teal;
+    border: 1px solid #D9D9D9;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    border:0px;
+}
+.main-thumbnail .caption {
+    // padding: 9px;
+    color: #333;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.icon-style
+{
+    margin-right:15px;
+    font-size:18px;
+    margin-top:20px;
+}
+.head-box {
+    font-size: 27px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p
+{
+    margin:3px;
+}
+.well-add-card
+{
+    margin-bottom:0px;
+    text-align: center;
+    padding: 4px;
+}
+.btn-add-card
+{
+    margin-top:20px;
+}
+.main-thumbnail {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 4px solid #D9D9D9;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.main-panel {
+  border: 4px solid #D9D9D9;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+.btn
+{
+    border-radius:0px;
+}
+.btn-update
+{
+    margin-left:15px;
+  }
+
+  .pic-box {
+display: block;
+padding: 4px;
+margin-bottom: 20px;
+line-height: 1.42857143;
+background-color: #fff;
+-webkit-transition: border .2s ease-in-out;
+-o-transition: border .2s ease-in-out;
+transition: border .2s ease-in-out;
+}
+.thumbnail {
+  border: 0px;
+  margin-bottom: 0;
+}
+
+.text-evt {
+  font-size: 18px;
+  letter-spacing: 1px;
+
+}
+.text-evt-detail
+{
+  font-size: 16px;
+  color: lightseagreen;
+}
+
+.btn-evt {
+  background: #3C4254;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.btn-evt:hover {
+  color: #FFFFFF;
+  background: lighten(#3C4254, 10%);
+}
+.del-evt-btn{
+  background: #d9534f;
+  color: #FFF;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.del-evt-btn:hover {
+  color: #fff;
+text-decoration: none;
+background: #c9302c;
 }

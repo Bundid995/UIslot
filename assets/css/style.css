@@ -355,6 +355,17 @@ body {
   text-transform: uppercase;
 }
 
+tbody > tr > td:last-child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-xs {
+  margin: 0 2px;
+}
+
 .footer-copyright {
   background: #3C4254;
   position: relative;
@@ -561,6 +572,7 @@ p {
   -webkit-transition: border .2s ease-in-out;
   -o-transition: border .2s ease-in-out;
   transition: border .2s ease-in-out;
+  height: 333px;
 }
 
 .btn {
@@ -620,4 +632,8 @@ p {
   color: #fff;
   text-decoration: none;
   background: #c9302c;
+}
+
+.panel-footer {
+  margin-top: 5px;
 }

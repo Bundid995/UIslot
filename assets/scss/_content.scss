@@ -90,3 +90,11 @@ flex: 1 0 auto;
   color: #FFF;
   text-transform: uppercase;;
 }
+
+
+tbody>tr>td:last-child {
+    display: flex;
+}
+.btn-xs {
+  margin: 0 2px;
+}

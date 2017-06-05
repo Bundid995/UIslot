@@ -169,6 +169,7 @@ p
   -webkit-transition: border .2s ease-in-out;
   -o-transition: border .2s ease-in-out;
   transition: border .2s ease-in-out;
+  height: 333px;
 }
 .btn
 {
@@ -225,4 +226,7 @@ transition: border .2s ease-in-out;
   color: #fff;
 text-decoration: none;
 background: #c9302c;
+}
+.panel-footer {
+  margin-top: 5px;
 }

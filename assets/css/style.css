@@ -366,6 +366,17 @@ tbody > tr > td:last-child {
   margin: 0 2px;
 }
 
+.panel-btn {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.del-icon {
+  margin-top: -3px;
+}
+
 .footer-copyright {
   background: #3C4254;
   position: relative;
